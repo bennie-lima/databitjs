@@ -1,6 +1,6 @@
 {
   "name": "databitjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "dataBit js is a false data generation library to facilitate day-to-day development easily and simply",
   "main": "index.js",
   "scripts": {
