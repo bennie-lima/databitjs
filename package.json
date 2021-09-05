@@ -1,0 +1,21 @@
+{
+  "name": "databitjs",
+  "version": "1.0.0",
+  "description": "dataBit js is a false data generation library to facilitate day-to-day development easily and simply",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bennie-ferreira/databitjs.git"
+  },
+  "keywords": ["brasil", "frontend", "dados", "generate data", "backend", "fullstack", "db", "dados", "data science",
+  "develop", "js", "vue", "react", "angular", "vuejs", "reactjs", "angularjs", "module", "exports", "mocks", "tests"],
+  "author": "bennie ferreira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bennie-ferreira/databitjs/issues"
+  },
+  "homepage": "https://github.com/bennie-ferreira/databitjs#readme"
+}
