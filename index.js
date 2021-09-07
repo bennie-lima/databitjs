@@ -1,5 +1,5 @@
-const dataType = require('./dataType');
-const utilFunction = require('./util');
+const dataType = require('./src/dataType');
+const utilFunction = require('./src/util');
 
 const validDataTypeObject = (objectValue) => {
     if (!utilFunction.isEmpty(objectValue)) {
@@ -12,7 +12,11 @@ const validDataTypeObject = (objectValue) => {
             try {
                 objectModel2[key] = dataType[value]()
             } catch {
-                objectModel2[key] = validDataTypeObject(value)
+                if(typeof(value) == 'object'){
+                    objectModel2[key] = validDataTypeObject(value)
+                } else {
+                    console.error(`data type not exist: ${value}`)
+                }
             }
         })
         return objectModel2
